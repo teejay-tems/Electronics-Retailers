@@ -69,32 +69,40 @@ The procedures for connecting data in Power BI are listed below.
 
 ##### 1.Open Power BI Desktop
 - Launched power BI Desktop on computer
+![](PowerBI Desktop.png)
 
 ##### 2.Get Data
 - Clicked on the "Home" tab in the Power BI Desktop.
 - Selected "Get Data" to initiate the data import process.
+![](2.Get_data.png)
 
 ##### 3. Choose Text/CSV and Specify the File Location
 	- In the "Get Data" window, select "Text/CSV" as the data source.
 	- Navigated to the location where the CSV file is stored.
 	- Selected the CSV file I want to import and clicked "Open."
+![](3.CSV_Location.png)
 
 ##### 4.Preview and Transform
 - Power BI displayed a preview of the data from the CSV file.
 - Reviewed the data to ensure it is displayed correctly.
+![](4.Preview.png)
 
 # Data Profiling
 Using Power BI's data profiling feature, one can examine and analyze the qualities and features of data to learn more about its structure, trends, possible problems, and outliers. 
 It helps to make informed decision on data cleaning and transformation. Data profiling is made easier with Power BI's array of features and tools.  These are column quality, column distribution and column profile.
 
 **Data Profile on Key Column on Product Table**
-
+![](Product_data.png)
 _**1.Basic information**_
 - Table name: Product Table
 - Number of Rows: 2517
 - Number of key Columns: 10
   
 _**2.Column Profile**_
+|Column Name|Datatype|Distinct Value|Unique Value| % Valid Values| % Error Values| % Empty Values|
+|-----------|--------|--------------|------------|---------------|--------------|--------------|
+|Productkey|Whole Number|1000|1000|100|0|0|
+|Productkey|Text |1000|1000|100|0|0|
 
 _**3. Data Quality Checks**_
 - Missing Values:
@@ -111,7 +119,7 @@ _**3. Data Quality Checks**_
 - Duplicates: This table has no duplicate value
 
 **Data Profile on Key Column on Customer Table**
-
+![](Customer_data.png)
 _**1.Basic information**_
 - Table name: Customer Table
 - Number of Rows: 15266
@@ -134,7 +142,7 @@ _**3. Data Quality Checks**_
 - Duplicates: This table has no duplicate value
 
   **Data Profile on Key Column on Store Table**
-
+![](Store_data_profile.png)
 _**1.Basic information**_
 - Table name: Store Table
 - Number of Rows: 67
@@ -152,7 +160,7 @@ _**3. Data Quality Checks**_
 - Duplicates: This table has no duplicate value
 
   **Data Profile on Key Column on Sales Table**
-
+![](Sales_data_profile.png)
 _**1.Basic information**_
 - Table name: Sales Table
 - Number of Rows: 62884
@@ -174,7 +182,7 @@ _**3. Data Quality Checks**_
 - Duplicates: This table has no duplicate value
 
 **Data Profile on Key Column on Exchange Rate Table**
-
+|[](Currency_data.png)
 _**1.Basic information**_
 - Table name: Exchange Rate Table
 - Number of Rows: 11215
@@ -195,12 +203,12 @@ As a result, no further cleaning is needed. The following process was carried ou
 
 **_Added a new table_**
 A calendar table was added. This table was marked as a date table. Marking a calendar table as a date table in Power BI enhances time-based calculations, navigation, and interactions within Power BI reports. When a calendar table is marked as date table, it’s like telling Power BI that the table contains date-related information, allowing the system to optimize certain functionalities such as Time Intelligence Functions.
-
+![](Calender_data.png)
 The calendar table contains seven columns which are Date, Month Name, Month Number, Quarter, Year, Weekday Name, Weekday Number. A calendar table also helps to create a date hierarchy, providing a natural and intuitive way to drill down into data. Users can easily navigate from year to month, enhancing the overall user experience.
 
 # Data Modelling
 Data modeling in Power BI involves structuring and organizing data to create meaningful relationships between different tables. A well-designed data model is essential for building accurate and insightful reports. Established an active relationship between tables using common fields (keys), examined the relationships diagram to ensure that relationships between tables are correctly defined and accurately represent the connections between tables. 
-![]()
+![](Data_Rshp.png)
 When a relationship is being created between two tables, Power BI assumes it's an active relationship unless it has been specified otherwise. Active relationships are used for most calculations and visualizations. Reviewed cardinality (e.g., one-to-many) and cross-filtering settings for each relationship. Cardinality defines the nature of relationships that exist between tables, it explains how one table relates to the other. This helped to ensure accurate and meaningful results in reports. Cross-filtering direction refers to the direction in which filter flows between two related tables. Properly set cross-filter direction for creating effective relationships data model and ensured that reports accurately reflect the intended relationships between tables.
 
 # Data Analysis and Insight
