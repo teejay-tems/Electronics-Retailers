@@ -3,22 +3,22 @@
 ## Introduction
 A Power BI project that examines various aspects of transactional data for a global electronics retailer business such as sales performance trends, product productivity, customer behavior, and currency impacts on revenue.
 ## Table Of Content
-- [Project Overview]()
-- [Project Scope]()
-- [Business Objective]()
-- [Document Purpose]()
-- [Use Case]()
-- [Skill/Concepts Demostrated]()
-- [Data Source]()
-- [Data Connection Detail]()
-- [Data Profilling]()
-- [Data Cleaning and Process]()
-- [Data modelling]()
-- [Data Analysis and Insight]()
-- [Key Performance Indicators(KPIs) Overview]()
-- [Data Visualization]()
-- [Recommendation]()
-- [Conclusion]()
+- [Project Overview](https://github.com/teejay-tems/Electronics-Retailers/blob/main/README.md#project-overview)
+- [Project Scope](https://github.com/teejay-tems/Electronics-Retailers/blob/main/README.md#project-scope)
+- [Business Objective](https://github.com/teejay-tems/Electronics-Retailers/blob/main/README.md#business-objective)
+- [Document Purpose](https://github.com/teejay-tems/Electronics-Retailers/blob/main/README.md#document-purpose)
+- [Use Case](https://github.com/teejay-tems/Electronics-Retailers/blob/main/README.md#use-case)
+- [Skill/Concepts Demostrated](https://github.com/teejay-tems/Electronics-Retailers/blob/main/README.md#skills-concepts-demonstrated)
+- [Data Source](https://github.com/teejay-tems/Electronics-Retailers/blob/main/README.md#data-source)
+- [Data Connection Detail](https://github.com/teejay-tems/Electronics-Retailers/blob/main/README.md#data-connection-details)
+- [Data Profilling](https://github.com/teejay-tems/Electronics-Retailers/blob/main/README.md#data-profiling)
+- [Data Cleaning and Process](https://github.com/teejay-tems/Electronics-Retailers/blob/main/README.md#data-cleaning-and-processing)
+- [Data modelling](https://github.com/teejay-tems/Electronics-Retailers/blob/main/README.md#data-modelling)
+- [Data Analysis and Insight](https://github.com/teejay-tems/Electronics-Retailers/blob/main/README.md#data-analysis-and-insight)
+- [Key Performance Indicators(KPIs) Overview](https://github.com/teejay-tems/Electronics-Retailers/blob/main/README.md#key-performance-indicators-kpis-overview)
+- [Data Visualization](https://github.com/teejay-tems/Electronics-Retailers/blob/main/README.md#data-visualization)
+- [Recommendation](https://github.com/teejay-tems/Electronics-Retailers/blob/main/README.md#recommendation)
+- [Conclusion](https://github.com/teejay-tems/Electronics-Retailers/blob/main/README.md#conclusion)
 
 ## Project Overview  
 This project aims to provide Electronics Retailer with actionable insights derived from sales analysis and to offer practical insights into product profitability, seasonal patterns or trends for order revenue, customers location, average delivery time, currency exchange rates and the differences between in-store sales vs online orders using Power BI.  
@@ -49,7 +49,7 @@ This analysis project for Maven Global Electronics Retailers would provide valua
 
 - Benefits: include higher revenue, improved client interaction, and more targeted marketing strategies.  
 
-## Skills/ Concepts Demonstrated**
+## Skills/ Concepts Demonstrated
 - Data Connection in Microsoft Power BI
 - Data Profiling
 - Data Cleaning and Transformation in Power Query
