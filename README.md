@@ -70,7 +70,7 @@ The procedures for connecting data in Power BI are listed below.
 ##### 1.Open Power BI Desktop
 - Launched power BI Desktop on computer
   
-![](PowerBI Desktop.png)
+![](PowerBI_Desktop.png)
 
 ##### 2.Get Data
 - Clicked on the "Home" tab in the Power BI Desktop.
@@ -182,8 +182,7 @@ _**Missing Values:**_
 - Duplicates: This table has no duplicate value
 
 **Data Profile on Key Column on Exchange Rate Table**
-
-|[](Currency_data.png)
+![](Currency_data.png)
 
 _**1.Basic information**_
 - Table name: Exchange Rate Table
