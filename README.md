@@ -3,12 +3,12 @@
 ## Introduction
 A Power BI project that examines various aspects of transactional data for a global electronics retailer business such as sales performance trends, product productivity, customer behavior, and currency impacts on revenue.
 ## Table Of Content
-- [Project Overview]()
-- [Project Scope]()
-- [Business Objective]()
-- [Document Purpose]()
-- [Use Case]()
-- [Skill/Concepts Demostrated]()
+- [Project Overview](https://github.com/teejay-tems/Electronics-Retailers/blob/main)
+- [Project Scope](https://github.com/teejay-tems/Electronics-Retailers/blob/main)
+- [Business Objective](https://github.com/teejay-tems/Electronics-Retailers/blob/main)
+- [Document Purpose](https://github.com/teejay-tems/Electronics-Retailers/blob/main)
+- [Use Case](https://github.com/teejay-tems/Electronics-Retailers/blob/main)
+- [Skill/Concepts Demostrated](https://github.com/teejay-tems/Electronics-Retailers/blob/main)
 - [Data Source]()
 - [Data Connection Detail]()
 - [Data Profilling]()
