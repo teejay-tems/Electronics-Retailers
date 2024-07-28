@@ -3,17 +3,23 @@
 ## Introduction
 A Power BI project that examines various aspects of transactional data for a global electronics retailer business such as sales performance trends, product productivity, customer behavior, and currency impacts on revenue.
 ## Table Of Content
-- Project Overview
-- Project Scope
-- Business Objective
-- Document Purpose
-- Use Case
-- Skills Demonstrated
-- Data Source
-- Data Cleaning and Processing
-- Data Analysis and Insight
-- Recommendation
-- Conclusion
+- [Project Overview]()
+- [Project Scope]()
+- [Business Objective]()
+- [Document Purpose]()
+- [Use Case]()
+- [Skill/Concepts Demostrated]()
+- [Data Source]()
+- [Data Connection Detail]()
+- [Data Profilling]()
+- [Data Cleaning and Process]()
+- [Data modelling]()
+- [Data Analysis and Insight]()
+- [Key Performance Indicators(KPIs) Overview]()
+- [Data Visualization]()
+- [Recommendation]()
+- [Conclusion]()
+
 ## Project Overview  
 This project aims to provide Electronics Retailer with actionable insights derived from sales analysis and to offer practical insights into product profitability, seasonal patterns or trends for order revenue, customers location, average delivery time, currency exchange rates and the differences between in-store sales vs online orders using Power BI.  
 The project will provide Mavin Global Electronics Retailer with the tools and knowledge needed to make informed decisions and pinpoint important areas in need of enhancement and optimization.
@@ -43,14 +49,14 @@ This analysis project for Maven Global Electronics Retailers would provide valua
 
 - Benefits: include higher revenue, improved client interaction, and more targeted marketing strategies.  
 
-**Skills/ Concepts Demonstrated**
+## Skills/ Concepts Demonstrated**
 - Data Connection in Microsoft Power BI
 - Data Profiling
 - Data Cleaning and Transformation in Power Query
 - Data Modelling
 - Data Analysis
 - Data Visualization
-# Data Source
+## Data Source
 The project utilizes a dataset containing information on sales and orders. The dataset used for this analysis was downloaded from  [Maven Analytics](https://mavenanalytics.io/data-playground?page=1&pageSize=5) website where datasets are available for practice purposes. The dataset is a CSV file, and it consists of five main tables which are product table, customer table, sales table, store table and exchange rate table.
 
 **The product table** contains information about the goods the electronics retailers sell and their brands. It has 2517 rows and 10 columns which are product key, product name, brand, color, unit cost, unit price, subcategory key, subcategory, category and category key. product key is the primary key for each product, product name is the name of each product in the dataset, brand is the various brands of the product, unit cost is the cost to produce the product (USD), unit price is the current price per unit of the product (USD), category key is the ID to identify the category the product belongs to and the category is the name product category name.
@@ -63,35 +69,35 @@ The project utilizes a dataset containing information on sales and orders. The d
 
 **The exchange rate table** lists the exchange rates for various currencies against a base currency (USD). It has 11215 rows and 3 columns which are date, currency and exchange.
 
-# Data Connection Details
+## Data Connection Details
 In Power BI, connecting to a CSV file involves specifying the location of the CSV file and defining the data import settings.
 The procedures for connecting data in Power BI are listed below.
 
-##### 1.Open Power BI Desktop
+**1. Open Power BI Desktop**
 - Launched power BI Desktop on computer
   
 ![](PowerBI_Desktop.png)
 
-##### 2.Get Data
+**2. Get Data**
 - Clicked on the "Home" tab in the Power BI Desktop.
 - Selected "Get Data" to initiate the data import process.
   
 ![](2.Get_data.png)
 
-##### 3. Choose Text/CSV and Specify the File Location
+**3. Choose Text/CSV and Specify the File Location**
 	- In the "Get Data" window, select "Text/CSV" as the data source.
 	- Navigated to the location where the CSV file is stored.
 	- Selected the CSV file I want to import and clicked "Open."
  
 ![](3.CSV_Location.png)
 
-##### 4.Preview and Transform
+**4. Preview and Transform**
 - Power BI displayed a preview of the data from the CSV file.
 - Reviewed the data to ensure it is displayed correctly.
   
 ![](4.Preview.png)
 
-# Data Profiling
+## Data Profiling
 Using Power BI's data profiling feature, one can examine and analyze the qualities and features of data to learn more about its structure, trends, possible problems, and outliers. 
 It helps to make informed decision on data cleaning and transformation. Data profiling is made easier with Power BI's array of features and tools.  These are column quality, column distribution and column profile.
 
@@ -196,7 +202,7 @@ _**Missing Values:**_
 - Exchange: 0
 - Duplicates: This table has no duplicate value
 
-# Data Cleaning and Processing
+## Data Cleaning and Processing
 The process of cleaning data in Power BI involves utilizing the Power Query Editor, an effective tool for shaping and modifying data prior to its loading into the Power BI data model. High levels of accuracy, consistency, quality, and integrity can all be attained with the aid of data cleaning. The insight obtained from data profiling indicates that the dataset used in this analysis is well-structured, consistent, and free of significant errors that might complicate analysis or interpretation. Each column has the correct data type assigned to it, the data values are accurate, and there are no duplicate records. Consistent naming conventions and uniform formatting are employed throughout the data.
 As a result, no further cleaning is needed. The following process was carried out during data processes.
 
@@ -207,14 +213,14 @@ A calendar table was added. This table was marked as a date table. Marking a cal
 
 The calendar table contains seven columns which are Date, Month Name, Month Number, Quarter, Year, Weekday Name, Weekday Number. A calendar table also helps to create a date hierarchy, providing a natural and intuitive way to drill down into data. Users can easily navigate from year to month, enhancing the overall user experience.
 
-# Data Modelling
+## Data Modelling
 Data modeling in Power BI involves structuring and organizing data to create meaningful relationships between different tables. A well-designed data model is essential for building accurate and insightful reports. Established an active relationship between tables using common fields (keys), examined the relationships diagram to ensure that relationships between tables are correctly defined and accurately represent the connections between tables. 
 
 ![](Data_Rshp.png)
 
 When a relationship is being created between two tables, Power BI assumes it's an active relationship unless it has been specified otherwise. Active relationships are used for most calculations and visualizations. Reviewed cardinality (e.g., one-to-many) and cross-filtering settings for each relationship. Cardinality defines the nature of relationships that exist between tables, it explains how one table relates to the other. This helped to ensure accurate and meaningful results in reports. Cross-filtering direction refers to the direction in which filter flows between two related tables. Properly set cross-filter direction for creating effective relationships data model and ensured that reports accurately reflect the intended relationships between tables.
 
-# Data Analysis and Insight
+## Data Analysis and Insight
 The objective of this analysis is to understand seasonal sales trends for order volume and revenue, identify the types of products sold, customers’ location, recognize key customers and orders online vs in-store sales.
 This analysis provides answers to the following questions?
 
@@ -261,7 +267,7 @@ Average_Order_Value (AOV) = [Total Revenue]/[Total Order]
 ```
 ![](4.Average_store.png)
 
-# Key Performance Indicators (KPIs) Overview
+## Key Performance Indicators (KPIs) Overview
 The company's performance is evaluated using several key performance indicators (KPIs):
 
 **- Total Revenue:** This measures the overall income generated from all sales channels. It provides a comprehensive view of the company's financial health and market performance.
@@ -291,7 +297,7 @@ Average_Order_Value (AOV) = [Total Revenue]/[Total Order]
 
 ```
 
-# Data Visualization
+## Data Visualization
 This data visualization was created using Power BI, each visual created displays information for each question in the business objective.
 
 Page 1           | Page 2
@@ -299,12 +305,12 @@ Page 1           | Page 2
 ![](Page_1.png)  |![](Page_2.png)
 
 You can interact with the report [Here]().
-# Recommendation
+## Recommendation
 - Design targeted marketing campaigns or promotions to sustain growth during peak months and use data-driven insights to tailor strategies based on customer behavior and preferences.
 - Invest in employee training to ensure staff members are well-informed about product features, benefits, and recommendations. Knowledgeable staff can enhance the customer’s shopping experience.
 - Conduct customer satisfaction surveys with key customers. Gather feedback on their experience, preferences, and areas for improvement to enhance overall satisfaction.
 
-# Conclusion
+## Conclusion
 The analysis of Global Electronics Retailers data provides valuable insights into various aspects of the business. Electronics retailers can increase sales and enhance overall customer satisfaction by utilizing the insights gathered from this analysis.  Regular monitoring, strategic planning, and adaptability will be key to the sustained success of the business.
 
 _**Thanks for Reading**_
