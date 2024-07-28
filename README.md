@@ -85,9 +85,9 @@ The procedures for connecting data in Power BI are listed below.
 ![](2.Get_data.png)
 
 **3. Choose Text/CSV and Specify the File Location**
-	- In the "Get Data" window, select "Text/CSV" as the data source.
-	- Navigated to the location where the CSV file is stored.
-	- Selected the CSV file I want to import and clicked "Open."
+- In the "Get Data" window, select "Text/CSV" as the data source.
+- Navigated to the location where the CSV file is stored.
+- Selected the CSV file I want to import and clicked "Open."
  
 ![](3.CSV_Location.png)
 
@@ -133,7 +133,7 @@ _**1.Basic information**_
 - Number of Rows: 15266
 - Number of key Columns: 10
 
-**2. Data Quality Checks**
+ **2. Data Quality Checks**
 _**Missing Values:**_
 - Customer key: 0
 - Name: 0
@@ -147,7 +147,7 @@ _**Missing Values:**_
 - Birthday: 0
 - Duplicates: This table has no duplicate value
 
-  **Data Profile on Key Column on Store Table**
+ **Data Profile on Key Column on Store Table**
   
 ![](Store_data_profile.png)
 
@@ -156,7 +156,7 @@ _**1.Basic information**_
 - Number of Rows: 67
 - Number of key Columns: 5
 
-**2. Data Quality Checks**
+ **2. Data Quality Checks**
 _**Missing Values:**_
 - Store key: 0
 - Country: 0
@@ -165,7 +165,7 @@ _**Missing Values:**_
 - Open Date: 0
 - Duplicates: This table has no duplicate value
 
-  **Data Profile on Key Column on Sales Table**
+ **Data Profile on Key Column on Sales Table**
   
 ![](Sales_data_profile.png)
 
