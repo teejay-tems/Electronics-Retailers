@@ -1,5 +1,6 @@
-# Global Electronics-Retailers
+# Global Electronics-Retailers 
 ![](Global_Electronics.jpeg)
+---
 ## Introduction
 A Power BI project that examines various aspects of transactional data for a global electronics retailer business such as sales performance trends, product productivity, customer behavior, and currency impacts on revenue.
 ## Table Of Content
