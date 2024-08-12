@@ -242,9 +242,14 @@ Total Revenue = SUMX(ADDCOLUMNS(Sales,"Unit price",RELATED(Product_s[Unit Price 
 DAX code for calculating Total Order
 Total Order = DISTINCTCOUNT(Sales[Order Number])
 ```
-Total Volume           | Total Revenue
-:---------------------:|:-----------------------:
-![](2.Order_Volume.png)|![](2.Total_Revenue.png)
+Total Volume           | 
+:---------------------:|
+![](2.Order_Volume.png)|
+
+
+|Total Revenue|
+:-----------------------:|
+![](2.Total_Revenue.png)
 
 **3. How long is the average delivery time in days? Has that changed over time?**
 
@@ -301,11 +306,17 @@ Average_Order_Value (AOV) = [Total Revenue]/[Total Order]
 ## Data Visualization
 This data visualization was created using Power BI, each visual created displays information for each question in the business objective.
 
-Page 1           | Page 2
-:---------------------:|:-----------------------:
-![](Page_1.png)  |![](Page_2.png)
+|Page 1       |
+:---------------------:|
+![](Page_1.png)  |
+
+
+|Page 2|
+:-----------------------:|
+![](Page_2.png)
 
 You can interact with the report [Here]().
+
 ## Recommendation
 - Design targeted marketing campaigns or promotions to sustain growth during peak months and use data-driven insights to tailor strategies based on customer behavior and preferences.
 - Invest in employee training to ensure staff members are well-informed about product features, benefits, and recommendations. Knowledgeable staff can enhance the customer’s shopping experience.
