@@ -40,11 +40,11 @@ This analysis project for Maven Global Electronics Retailers would provide valua
 -Benefits: Improved client retention, higher sales, and higher levels of satisfaction with customers.
 
 
-**2. Supervisors of Operations:**
+**2.Supervisors of Operations:**
 - Application of Analysis: By utilizing insights, operations managers can increase overall productivity in daily operations by optimizing inventory levels, streamlining order fulfillment procedures, and improving overall efficiency.
 - Benefits: include decreased operating expenses, increased output, and faster order fulfillment.
 
-**3. Marketing Team:**
+**3.Marketing Team:**
 
 - Application of Analysis: Knowledge of consumer preferences, satisfaction levels, and general market trends can be advantageous to the marketing department. 
 
@@ -74,25 +74,25 @@ The project utilizes a dataset containing information on sales and orders. The d
 In Power BI, connecting to a CSV file involves specifying the location of the CSV file and defining the data import settings.
 The procedures for connecting data in Power BI are listed below.
 
-**1. Open Power BI Desktop**
+**1.Open Power BI Desktop**
 - Launched power BI Desktop on computer
   
 ![](PowerBI_Desktop.png)
 
-**2. Get Data**
+**2.Get Data**
 - Clicked on the "Home" tab in the Power BI Desktop.
 - Selected "Get Data" to initiate the data import process.
   
 ![](2.Get_data.png)
 
-**3. Choose Text/CSV and Specify the File Location**
+**3.Choose Text/CSV and Specify the File Location**
 - In the "Get Data" window, select "Text/CSV" as the data source.
 - Navigated to the location where the CSV file is stored.
 - Selected the CSV file I want to import and clicked "Open."
  
 ![](3.CSV_Location.png)
 
-**4. Preview and Transform**
+**4.Preview and Transform**
 - Power BI displayed a preview of the data from the CSV file.
 - Reviewed the data to ensure it is displayed correctly.
   
@@ -106,12 +106,12 @@ It helps to make informed decision on data cleaning and transformation. Data pro
 
 ![](Product_data.png)
 
-_**1. Basic information**_
+_**1.Basic information**_
 - Table name: Product Table
 - Number of Rows: 2517
 - Number of key Columns: 10
 
-**2. Data Quality Checks**
+**2.Data Quality Checks**
 _**Missing Values:**_
 - Product key: 0
 - Product Name: 0
@@ -134,7 +134,7 @@ _**1.Basic information**_
 - Number of Rows: 15266
 - Number of key Columns: 10
 
- **2. Data Quality Checks**
+ **2.Data Quality Checks**
 _**Missing Values:**_
 - Customer key: 0
 - Name: 0
@@ -157,7 +157,7 @@ _**1.Basic information**_
 - Number of Rows: 67
 - Number of key Columns: 5
 
- **2. Data Quality Checks**
+ **2.Data Quality Checks**
 _**Missing Values:**_
 - Store key: 0
 - Country: 0
@@ -175,7 +175,7 @@ _**1.Basic information**_
 - Number of Rows: 62884
 - Number of key Columns: 9
 
-**2. Data Quality Checks**
+**2.Data Quality Checks**
 _**Missing Values:**_
 - Order Number: 0
 - Line Item: 0
@@ -196,7 +196,7 @@ _**1.Basic information**_
 - Number of Rows: 11215
 - Number of key Columns: 3
   
-**2. Data Quality Checks**
+**2.Data Quality Checks**
 _**Missing Values:**_
 - Date: 0
 - Currency: 0
@@ -225,12 +225,12 @@ When a relationship is being created between two tables, Power BI assumes it's a
 The objective of this analysis is to understand seasonal sales trends for order volume and revenue, identify the types of products sold, customers’ location, recognize key customers and orders online vs in-store sales.
 This analysis provides answers to the following questions?
 
- **1. What types of products does the company sell, and where are customers located?**
+ **1.What types of products does the company sell, and where are customers located?**
 The company sells a wide variety of goods, such as toys, games, home appliances, music, movies, audiobooks, computers, cameras, camcoders, and electronics.  These products cater to a wide variety of customer needs, ensuring that there is something for everyone. The customer base is equally diverse, with individuals located across different regions, including North America, Europe, and Asia. This broad geographic distribution demonstrates the company's extensive market penetration and the appeal of its product offerings on a worldwide scale.
 
 ![](1Product_type.png)
 
-**2. Are there any seasonal patterns or trends for order volume or revenue?**
+**2.Are there any seasonal patterns or trends for order volume or revenue?**
 There are clear seasonal patterns and trends found in the analysis of order volume and revenue. Holiday shopping and year-end sales events are probably the main reasons for the noticeable spike in order volume and revenue that occurs during this time of year, especially in December.  Furthermore, sales spike during the late summer back-to-school season, particularly for computers and home appliances. On the other hand, slower times can be found in the post-holiday months of March and April, which point to a customary slowdown after the busiest holiday shopping season.  Understanding these seasonal trends helps in planning inventory, marketing strategies, and staffing to better align with consumer demand cycles.
 
 A comprehensive approach was taken to create a measure that calculate total Revenue and total order.
@@ -251,7 +251,7 @@ Total Volume           |
 :-----------------------:|
 ![](2.Total_Revenue.png)
 
-**3. How long is the average delivery time in days? Has that changed over time?**
+**3.How long is the average delivery time in days? Has that changed over time?**
 
 The company's orders currently take an average of 4.5 days to arrive. Over the past year, this delivery time has improved from an average of 7 days. This reduction in delivery time can be attributed to improvements in the company's logistics network, enhanced inventory management, and partnerships with faster shipping providers. Continuous efforts to streamline the order fulfillment process have successfully shortened the delivery window, resulting in increased customer satisfaction.
 
@@ -265,7 +265,7 @@ Average Time(Days) = CALCULATE(AVERAGEX(Sales,DATEDIFF(Sales[Order Date],Sales[D
 
 ![](3.Average_time.png)
 
-**4. Is there a difference in average order value (AOV) for online vs. in-store sales?**
+**4.Is there a difference in average order value (AOV) for online vs. in-store sales?**
 The analysis shows a noticeable difference in average order value (AOV) between online and in-store sales. Online sales have an AOV of $1,948.4026, while in-store sales have a slightly higher AOV of $2,028.5272 Despite the higher AOV for in-store purchases, online sales account for 21.4% of the total revenue, whereas in-store sales contribute a significant 78.6%. This distribution indicates that while customers spend more per transaction in physical stores, the majority of the company's revenue still comes from in-store sales, highlighting the importance of both channels in the overall revenue strategy.
 
 ```
