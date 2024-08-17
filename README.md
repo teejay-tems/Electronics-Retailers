@@ -20,6 +20,7 @@ A Power BI project that examines various aspects of transactional data for a glo
 - [Data Visualization](https://github.com/teejay-tems/Electronics-Retailers/blob/main/README.md#data-visualization)
 - [Recommendation](https://github.com/teejay-tems/Electronics-Retailers/blob/main/README.md#recommendation)
 - [Conclusion](https://github.com/teejay-tems/Electronics-Retailers/blob/main/README.md#conclusion)
+- [License](https://github.com/teejay-tems/Electronics-Retailers/blob/main/LICENSE)
 
 ## Project Overview  
 This project aims to provide Electronics Retailer with actionable insights derived from sales analysis and to offer practical insights into product profitability, seasonal patterns or trends for order revenue, customers location, average delivery time, currency exchange rates and the differences between in-store sales vs online orders using Power BI.  
@@ -324,6 +325,12 @@ You can interact with the report [Here]().
 
 ## Conclusion
 The analysis of Global Electronics Retailers data provides valuable insights into various aspects of the business. Electronics retailers can increase sales and enhance overall customer satisfaction by utilizing the insights gathered from this analysis.  Regular monitoring, strategic planning, and adaptability will be key to the sustained success of the business.
+
+
+# License
+This repository is licensed under the [MIT License](https://github.com/teejay-tems/Electronics-Retailers/blob/main/LICENSE)
+
+---
 
 _**Thanks for Reading**_
 
